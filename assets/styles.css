@@ -34,6 +34,7 @@ h1 {
     width: 350px;
     text-align: center;
     border-radius: 6px;
+    transition: 0.2s ease-in-out;
 }
 
 .fa-twitter,
@@ -64,14 +65,20 @@ p {
 .twitter-cards:hover {
     background-color: #1DA1F2;
     color: white;
+    transition: 0.2s ease-in-out;
+    border-color: #1DA1F2;
 }
 
 .instagram-cards:hover {
     background-color: #E1306C;
     color: white;
+    transition: 0.2s ease-in-out;
+    border-color: #E1306C;
 }
 
 .youtube-cards:hover{
     background-color: #FF1500;
     color: white;
+    transition: 0.2s ease-in-out;
+    border-color: #FF1500;
 }
