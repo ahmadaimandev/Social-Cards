@@ -14,7 +14,8 @@ body {
     margin: 100px auto;
     width: 70%;
     padding: 20px;
-    flex-direction: row;
+    flex-direction: column;
+    display: flex;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
     text-align: center;
 }
 
-.twitter-cards {
+.twitter-cards, .instagram-cards, .youtube-cards {
     border: 2px solid;
     margin: 50px auto;
     padding: 20px;
@@ -33,7 +34,7 @@ h1 {
     border-radius: 6px;
 }
 
-.fa-twitter {
+.fa-twitter, .fa-instagram, .fa-youtube {
     font-size: 5em;
     color: black;
     margin: 20px;
@@ -41,11 +42,25 @@ h1 {
 
 p {
     font-size: 18px;
-    margin: 20px;
+    margin: 20px auto;
 }
 
-.twitter-button {
+.twitter-button, .instagram-button, .youtube-button {
     width: 300px;
     height: 50px; 
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
 }
+
+.twitter-cards:hover {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+
+
+
 
