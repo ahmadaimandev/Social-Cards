@@ -15,7 +15,7 @@ body {
     width: 70%;
     padding: 20px;
     flex-direction: column;
-    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
