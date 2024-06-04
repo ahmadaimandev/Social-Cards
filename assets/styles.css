@@ -12,12 +12,40 @@ body {
 .cards {
     background-color: #E7E2EF;
     margin: 100px auto;
-    justify-content: center;
-    display: flex;
     width: 70%;
+    padding: 20px;
+    flex-direction: row;
 }
 
 h1 {
     text-transform: uppercase;
     font-size: 2em;
+    text-align: center;
 }
+
+.twitter-cards {
+    border: 2px solid;
+    margin: 50px auto;
+    padding: 20px;
+    height: 380px;
+    width: 350px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.fa-twitter {
+    font-size: 5em;
+    color: black;
+    margin: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.twitter-button {
+    width: 300px;
+    height: 50px; 
+}
+
