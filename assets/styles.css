@@ -14,8 +14,6 @@ body {
     margin: 100px auto;
     width: 70%;
     padding: 20px;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 h1 {
