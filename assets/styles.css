@@ -1,5 +1,4 @@
-check my css
-* {
+check my css * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -77,21 +76,13 @@ p {
     cursor: pointer;
     font-weight: normal;
     text-transform: uppercase;
+    transition: 0.4s ease-in-out;
 }
 
-@media only screen and (max-width: 768px) {
-    .title {
-        text-transform: uppercase;
-        font-size: .8em;
-        text-align: center;
-        font-weight: bold;
-    }
+
+@media (max-width: 900px) {
     .cards {
-        flex-direction: column; /* Stack cards vertically on smaller screens */
-        align-items: center; /* Center align the cards */
-    }
-    .twitter-cards, .instagram-cards, .youtube-cards {
-        flex: 1 0 100%; /* Make cards full width on smaller screens */
-        margin: 10px 0; /* Reduce margin for better spacing */
+        display: flex;
+        flex-direction: column;
     }
 }
