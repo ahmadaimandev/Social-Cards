@@ -78,11 +78,3 @@ p {
     text-transform: uppercase;
     transition: 0.4s ease-in-out;
 }
-
-
-@media (max-width: 900px) {
-    .cards {
-        display: flex;
-        flex-direction: column;
-    }
-}
