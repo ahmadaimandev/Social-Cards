@@ -17,6 +17,7 @@ body {
     font-size: 1.5em;
     text-align: center;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 .cards {
@@ -56,6 +57,8 @@ h1 {
     font-size: 5em;
     color: black;
     margin: 20px;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
 }
 
 p {
@@ -79,12 +82,38 @@ p {
     transition: 0.4s ease-in-out;
 }
 
+/* Hover state */
+.twitter-cards:hover,
+.twitter-cards:hover .fa-twitter,
+.fa-twitter:hover {
+    background-color: #1DA1F2; /* Change to a different shade for hover */
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.instagram-cards:hover,
+.instagram-cards:hover .fa-instagram,
+.fa-instagram:hover {
+    background-color: #E1306C; /* Change to a different shade for hover */
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.youtube-cards:hover,
+.youtube-cards:hover .fa-youtube,
+.fa-youtube:hover {
+    background-color: #FF1500; /* Change to a different shade for hover */
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
 @media only screen and (max-width: 768px) {
     .title {
         font-size: 1.5em;
-        text-align: center;
+        text-align: right;
         margin: auto;
     }
+    
     .cards {
         background-color: rgba(231, 228, 228, 0.664);
         margin: 10px auto;
@@ -94,4 +123,4 @@ p {
         justify-content: space-around;
         flex-wrap: wrap;
     }
-  }
+}
