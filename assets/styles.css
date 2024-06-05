@@ -13,18 +13,21 @@ body {
     background-color: #EEEEEE;
 }
 
-.cards {
-    background-color: #f2ecfa;
-    margin: 100px auto;
-    width: 90%;
-    padding: 20px;
-}
-
 .title {
     text-transform: uppercase;
     font-size: 1.5em;
     text-align: center;
     font-weight: bold;
+}
+
+.cards {
+    background-color: rgba(231, 228, 228, 0.664);
+    margin: 10px auto;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -37,14 +40,14 @@ h1 {
 .twitter-cards,
 .instagram-cards,
 .youtube-cards {
-    border: 1px solid black;
+    border: 2px solid;
     margin: 50px auto;
     padding: 20px;
     height: 350px;
     width: 320px;
     text-align: center;
-    border-radius: 9px;
-    transition: 0.4s ease-in-out;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 
@@ -74,7 +77,6 @@ p {
     cursor: pointer;
     font-weight: normal;
     text-transform: uppercase;
-    transition: 0.4s ease-in-out;
 }
 
 @media only screen and (max-width: 768px) {
@@ -83,5 +85,13 @@ p {
         font-size: .8em;
         text-align: center;
         font-weight: bold;
+    }
+    .cards {
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+        align-items: center; /* Center align the cards */
+    }
+    .twitter-cards, .instagram-cards, .youtube-cards {
+        flex: 1 0 100%; /* Make cards full width on smaller screens */
+        margin: 10px 0; /* Reduce margin for better spacing */
     }
 }
