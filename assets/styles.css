@@ -78,3 +78,20 @@ p {
     text-transform: uppercase;
     transition: 0.4s ease-in-out;
 }
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 1.5em;
+        text-align: center;
+        margin: auto;
+    }
+    .cards {
+        background-color: rgba(231, 228, 228, 0.664);
+        margin: 10px auto;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+  }
