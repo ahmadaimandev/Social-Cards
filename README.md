@@ -21,7 +21,7 @@ Clone my repository
 ## Screenshots 🖼
 
 <p align="center">
-  <img src="preview.png" alt="Preview" width="400">
+  <img src="preview.png" alt="Preview">
 </p>
 
 ## Guidance 📚
