@@ -1,4 +1,3 @@
-
 # Responsive Social Cards Project
 
 This is a simple project aimed at practicing HTML and CSS skills, particularly focusing on responsiveness. The project consists of cards created using HTML and styled using CSS. Each card features social icons for Twitter, Instagram, and YouTube, along with a short text and a button.
